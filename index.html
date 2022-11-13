@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="favicon.png" type="image/png" />
+		<script
+			src="https://kit.fontawesome.com/a929a880e2.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./css/style.css" />
+		<script src="./js/script.js"></script>
+		<title>My Dashboard - HTML,CSS,JAVASCRIPT</title>
+	</head>
+	<body>
+		<aside>
+			<nav class="nav navigation">
+				<ul>
+					<li id="li">
+						<a href="#">
+							<span class="icon"
+								><i class="fa-solid fa-table-columns"></i
+							></span>
+							<span class="title">WELCOME</span>
+						</a>
+					</li>
+					<li id="li" class="hovered">
+						<a href="#">
+							<span class="icon"><i class="fa-solid fa-house"></i></span>
+							<span class="title">Dashboard</span>
+						</a>
+					</li>
+					<li id="li">
+						<a href="#">
+							<span class="icon"><i class="fa-solid fa-user"></i></span>
+							<span class="title">Customers</span>
+						</a>
+					</li>
+					<li id="li">
+						<a href="#">
+							<span class="icon"><i class="fa-solid fa-message"></i></span>
+							<span class="title">Message</span>
+						</a>
+					</li>
+					<li id="li">
+						<a href="#">
+							<span class="icon"><i class="fa-solid fa-circle-info"></i></span>
+							<span class="title">Help</span>
+						</a>
+					</li>
+					<li id="li">
+						<a href="#">
+							<span class="icon"><i class="fa-solid fa-sliders"></i></span>
+							<span class="title">Settings</span>
+						</a>
+					</li>
+					<li id="li">
+						<a href="#">
+							<span class="icon"
+								><i class="fa-solid fa-arrow-right-from-bracket"></i
+							></span>
+							<span class="title">Sign Out</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+
+		<!-- Main -->
+		<main class="main">
+			<!-- Top Nav Bar -->
+			<div class="topbar">
+				<div class="toggle">
+					<i class="fa-solid fa-bars"></i>
+				</div>
+				<!-- Search -->
+				<div class="search">
+					<label for="">
+						<input type="text" placeholder="Search here" />
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</label>
+				</div>
+				<div class="search">
+					<label for="" class="notify">
+						<i class="fa-regular fa-bell"></i>
+					</label>
+				</div>
+				<!-- User -->
+				<div class="user">
+					<img src="./images/user.jpg" alt="user" />
+				</div>
+			</div>
+
+			<!--  Cards  -->
+			<div class="cardbox">
+				<div class="card">
+					<div>
+						<div class="title">Projects</div>
+						<div class="titletexts">Backend Projects</div>
+					</div>
+					<div class="iconbox">
+						<i class="fa-solid fa-list-check"></i>
+					</div>
+				</div>
+				<div class="card">
+					<div>
+						<div class="title">SKills</div>
+						<div class="titletexts">Python</div>
+					</div>
+					<div class="iconbox">
+						<i class="fa-solid fa-user-plus"></i>
+					</div>
+				</div>
+				<div class="card">
+					<div>
+						<div class="title">Projects</div>
+						<div class="titletexts">UI Projects</div>
+					</div>
+					<div class="iconbox">
+						<i class="fa-solid fa-list-check"></i>
+					</div>
+				</div>
+				<div class="card">
+					<div>
+						<div class="title">Users</div>
+						<div class="titletexts">Comments</div>
+					</div>
+					<div class="iconbox">
+						<i class="fa-solid fa-user-plus"></i>
+					</div>
+				</div>
+			</div>
+
+			<!-- Content -->
+			<section class="details">
+				<div class="recentOrders">
+					<div class="cardHeader">
+						<h2>Recent Orders</h2>
+						<a href="#" class="btn">View all</a>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<td>Name</td>
+								<td>Price</td>
+								<td>Payment</td>
+								<td>Status</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Paid</td>
+								<td><span class="status delivered">Delivered</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Paid</td>
+								<td><span class="status delivered">Delivered</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Due</td>
+								<td><span class="status inprogress">In Progress</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Paid</td>
+								<td><span class="status delivered">Delivered</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Due</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Due</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Paid</td>
+								<td><span class="status delivered">Delivered</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Due</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Paid</td>
+								<td><span class="status delivered">Delivered</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Paid</td>
+								<td><span class="status inprogress">In Progress</span></td>
+							</tr>
+							<tr>
+								<td>Play Station 5</td>
+								<td>$1500</td>
+								<td>Due</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="recentCustomers">
+					<div class="cardHeader">
+						<h2>Recent Customers</h2>
+					</div>
+					<table>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+						<tr>
+							<td width="60px">
+								<div class="imgBox">
+									<img src="images/recentcustomer1.jpg" alt="" />
+								</div>
+							</td>
+							<td>
+								<h4>Nuel<br /><span>American</span></h4>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</section>
+		</main>
+	</body>
+	<script>
+		let toggle = document.querySelector(".toggle");
+		let nav = document.querySelector(".nav");
+		let main = document.querySelector(".main");
+
+		toggle.onclick = function () {
+			nav.classList.toggle("active");
+			main.classList.toggle("active");
+		};
+
+		let list = document.querySelectorAll(" .navigation li ");
+		function activeLink() {
+			list.forEach((item) => item.classList.remove("hovered"));
+			this.classList.add("hovered");
+		}
+		list.forEach((item) => item.addEventListener("mouseover", activeLink));
+	</script>
+</html>
