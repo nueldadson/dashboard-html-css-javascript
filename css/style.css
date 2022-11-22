@@ -267,7 +267,7 @@ main.active {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	grid-gap: 30px;
-	min-height: 200px;
+	/* min-height: 200px; */
 }
 .chatbox .box{
 	width: 100%;
@@ -434,7 +434,7 @@ main.active {
 	}
 	.chatbox{
 		grid-template-columns: 1fr;
-		height: auto;
+		height: 200px;
 	}
 }
 @media (max-width: 768px) {
