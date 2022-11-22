@@ -259,6 +259,26 @@ main.active {
 .cardbox .card:hover .iconbox {
 	color: var(--white);
 }
+/* Charts */
+.chatbox{
+	position: relative;
+	width: 100%;
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 30px;
+	min-height: 200px;
+}
+.chatbox .box{
+	width: 100%;
+	position: relative;
+	/* display: grid; */
+	background: var(--background);
+	padding: 20px;
+	box-shadow: 0 7px 25px rgba(0, 0, 0, 0.08);
+	border-radius: 20px;
+}
+/* Content */
 .details {
 	position: relative;
 	width: 100%;
@@ -411,6 +431,10 @@ main.active {
 	}
 	.cardbox {
 		grid-template-columns: repeat(2, 1fr);
+	}
+	.chatbox{
+		grid-template-columns: 1fr;
+		height: auto;
 	}
 }
 @media (max-width: 768px) {
